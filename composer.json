@@ -1,0 +1,38 @@
+{
+    "name": "stg/ldap-authentication-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle de autenticación LDAP",
+    "keywords": ["LDAP", "Authentication", "STG"],
+    "homepage": "http://www.santafe.gov.ar",
+
+    "authors": [
+        {
+            "name": "Pradolini, Fernando",
+            "homepage": "http://www.santafe.gov.ar"
+        },
+        {
+            "name": "Zonta, Claudio",
+            "homepage": "http://www.santafe.gov.ar"
+        },
+        {
+            "name": "Azario, Alejandro",
+            "homepage": "http://www.santafe.gov.ar"
+        }
+        
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/security-bundle":  "~2.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "STG\\DEIM\\Security\\Bundle\\LDAPAuthenticationBundle": ""
+        }
+    },
+
+    "target-dir": "STG/DEIM/Security/Bundle/LDAPAuthenticationBundle"
+    
+}

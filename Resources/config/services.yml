@@ -1,0 +1,4 @@
+services:
+    stg.deim.security.authentication.provider.ldap:
+        class: STG\DEIM\Security\Bundle\LDAPAuthenticationBundle\Security\Authentication\Provider\LDAPProvider
+        arguments: ["", "%stg.deim.security.ldap_authentication.endpoint%", "", ""]
